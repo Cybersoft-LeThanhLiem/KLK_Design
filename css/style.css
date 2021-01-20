@@ -5,6 +5,10 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
 /* Xóa hiệu ứng của float */
 .clear {
     clear: both;
@@ -82,6 +86,7 @@
     border: 0;
     border-radius: 8%;
     margin-top: 20px;
+    cursor: pointer;
 }
 /* Banner */
 .banner {
@@ -132,6 +137,24 @@
 
 .service i {
     font-size: 70px;
+}
+
+/* FOOTER section */
+.footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer h2 {
+    margin-bottom: 0;
+}
+
+.footer p {
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 
