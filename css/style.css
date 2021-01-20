@@ -56,8 +56,40 @@ body {
     background-position: center;
 }
 
+/* INTRO section */
+.intro b {
+    color: red;
+}
+
+.intro__product-left,
+.intro__product-right {
+    float: left;
+    width: 50%;
+}
+
+.intro__product-item {
+    float: left;
+    padding: 20px;
+}
+
+.intro__product-item1 {
+    width: 50%;
+}
+
+.intro__product-item2 {
+    width: 100%;
+}
+
+.intro__product-item img {
+    width: 100%;
+    display: block;
+}
+
 /* PRODUCTS */
 /* .products__content */
+.products__title {
+    text-align: center;
+}
 
 .products__item {
     float: left;
