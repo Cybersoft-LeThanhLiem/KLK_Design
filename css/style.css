@@ -61,6 +61,11 @@ body {
     color: red;
 }
 
+.intro p {
+    line-height: 20px;
+    text-align: justify;
+}
+
 .intro__product-left,
 .intro__product-right {
     float: left;
