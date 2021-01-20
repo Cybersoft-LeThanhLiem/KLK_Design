@@ -1,0 +1,123 @@
+/* GLOBAL */
+* {
+    box-sizing: border-box; /* giúp giữ nguyên kích thước width của thẻ khi padding thay đổi */
+    /* width = content + padding + border */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Xóa hiệu ứng của float */
+.clear {
+    clear: both;
+}
+
+/* HEADER */
+/* Chỉnh ul là con của div có class header */
+.header ul {
+    /* B1: Xóa dấu tròn của danh sách */
+    list-style: none;
+    background-color: black;
+    padding: 20px 0;
+}
+
+.header a {
+    /* B2: Xóa dấu gạch dưới của thẻ a */
+    text-decoration: none;
+    color: white;
+}
+
+.header li {
+    /* B3: Chuyển tính chất của <li> từ block sang inline */
+    display: inline;
+    margin : 20px;
+    /* padding: 15px; */
+    /* border : 3px solid red; */
+}
+
+/* margin : khoảng cách giữa thẻ với thẻ
+   margin-top
+   margin: 20px (cả 4 bên t, r, b, l)
+         : 10px (t, b) 15px (l, r)
+         : 10px 15px 20px (t, l - r, b)
+         : 10px 15px 20px 25px (t, r, b, l)
+
+   padding : khoảng cách giữa border và content (nội dung)
+*/
+
+/* Carousel */
+.carousel {
+    background-image: url(../img/slider_1.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* PRODUCTS */
+/* .products__content */
+
+.products__item {
+    float: left;
+    width: 25%;
+    /* margin: 0 10px; */
+    padding: 0 10px;
+    margin-bottom: 80px;
+    text-align: justify;
+}
+
+.products__item img {
+    width: 100%;
+}
+
+.products__item h3 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.products__item button {
+    background-color: #d8534e;
+    color: white;
+    height: 35px;
+    width: 70px;
+    border: 0;
+    border-radius: 8%;
+    margin-top: 20px;
+}
+/* Banner */
+.banner {
+    background-image: url(../img/nature.jpg);
+    height: 300px;
+    background-size: cover;
+    position: relative;
+}
+
+.banner__circle {
+    width: 250px;
+    height: 250px;
+    /* bo tròn góc của thẻ */
+    border-radius: 50%;
+    /* rgba: mã màu giúp mờ màu nền */
+    background-color: rgba(134, 28, 28, 0.5);
+    color: white;
+    text-align: center;
+    position: absolute;
+    /* gần phía nào thì xét vị trí từ phía đó, chỉ cần xét 2 bên là được */
+    top: 25px;
+    left: 350px;
+    /* opacity: 0.7; */
+}
+
+.banner__circle-saleoff {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.banner__circle-50 {
+    font-size: 60px;
+    margin: 0 auto;
+}
+
+
+
+
