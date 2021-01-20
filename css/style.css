@@ -118,6 +118,20 @@
     margin: 0 auto;
 }
 
+/* SERVICE section */
+.service {
+    width: 60%;
+    margin: 40px auto;
+}
 
+.service__child {
+    text-align: center;
+    width: calc(100% / 3);
+    float: left;
+}
+
+.service i {
+    font-size: 70px;
+}
 
 
